@@ -1,6 +1,4 @@
 import React from "react";
-import myImage from "../img/myImage.png";
-
 class About extends React.Component {
   constructor() {
     super();
@@ -35,14 +33,8 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Im good thanks"
+            "Aspiring developer looking to accomplish great things. Late bloomer but better late than never."
         }
-        // ,
-        // {
-        //   id: "second-p-about",
-        //   content:
-        //     "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        // }
       ]
     };
   }
@@ -65,10 +57,6 @@ class About extends React.Component {
                           className="about-img"
                           style={{ textAlign: "center" }}
                         >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
                         </div>
                       </div>
                     </div>
